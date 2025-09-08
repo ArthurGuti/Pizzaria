@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Raiz CSS */
+:root {
+  --primaria: #006ef5;
+  --secundaria: #0047cc;
+  --texto-bold: #8fc1ff;
+  --primaria-clara: #1f9cff;
+  --escuro: #1b1f24;
+  --maisEscuro: #0a0d10;
+  --corFundo: #f3f5f7;
+  --amareloPizzaria: #DB9E1E;
+  --claro: #ecf0f1;
+  --vidro: rgba(255, 255, 255, 0.07);
+  --color-neutral-0: #0e0c0c;
+  --color-neutral-10: #171717;
+  --color-neutral-30: #a8a29e;
+  --color-neutral-40: #f5f5f5;
+}
+
+body {
+  background-color: var(--corFundo);
+  color: var(--color-neutral-0);
+}
+
+.header {
+  transition: 0.3s ease;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  background: var(--amareloPizzaria);
+  z-index: 1;
+}
+
+.container-header {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 8rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-menu-nav {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav {
+  max-width: 80rem;
+  font-size: 0.875rem;
+  gap: 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 8rem;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: var(--color-neutral-40);
+  font-weight: 600;
+  font-size: 1.1em;
+  position: relative;
+  padding: 0.5rem 0;
+
+  border-radius: 0.25rem;
+  padding-block: 0.6rem;
+  padding-inline: 0.9rem;
+  transition: 0.3s all;
+}
+
+.menu-link:hover {
+  background: var(--color-neutral-40);
+  color: var(--amareloPizzaria);
+  &:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+}
+
+.menu-link::after {
+  content: "";
+  display: none;
+}
+
+#menu-button {
+  background: var(--color-neutral-40);
+  color: var(--amareloPizzaria);
+}
+
+#menu-button:hover {
+  background: var(--amareloPizzaria);
+  color: var(--color-neutral-40);
+  &:active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+}
+
+.fas {
+  margin-right: 0.5em;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+}

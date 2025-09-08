@@ -18,7 +18,7 @@ html {
   --escuro: #1b1f24;
   --maisEscuro: #0a0d10;
   --corFundo: #f3f5f7;
-  --amareloPizzaria: #DB9E1E;
+  --amareloPizzaria: #db9e1e;
   --claro: #ecf0f1;
   --vidro: rgba(255, 255, 255, 0.07);
   --color-neutral-0: #0e0c0c;
@@ -121,8 +121,32 @@ body {
   margin-right: 0.5em;
 }
 
+.imagem-main {
+  width: 80%;
+  height: 15vw;
+  background-color: red;
+  margin: auto;
+  margin-top: -7rem;
+  border: 3px solid var(--color-neutral-40);
+  border-radius: 0.8rem;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.8rem;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     display: none;
+  }
+
+  .imagem-main {
+    width: 100%;
+    height: 35vh;
+    border: none;
+    border-radius: 0%;
   }
 }

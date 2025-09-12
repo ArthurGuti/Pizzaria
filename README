@@ -1,0 +1,27 @@
+# 📈​ Cardapio de Pizza
+
+Este é um projeto para estudo da faculdade - apenas HTML e CSS.
+
+## 🛠️ Tecnologias Utilizadas
+
+HTML \
+CSS \
+Visual Code \ 
+
+## Imagens do Projeto
+
+![Tabela]<img width="1868" height="946" alt="image" src="/images/Screenshot_ home PC.png" /> ![Uploading image.png…]()
+
+
+![Tela de cadastro de paciente]<img width="1862" height="942" alt="image" src="/images/Screenshot_home mobile.png" />
+
+
+## 🚀 Como Rodar o Projeto
+
+1° - `git clone https://github.com/ArthurGuti/Pizzaria/tree/principal`
+
+2° - `cd frontend`
+
+3° - `npm install`
+
+4° - `ng serve`

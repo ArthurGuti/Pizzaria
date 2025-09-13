@@ -12,11 +12,9 @@ Visual Code \
 
 ![Home]<img width="1868" height="946" alt="image" src="/images/Screenshot_home_PC.png" />
 
-![Mobile]<img width="1862" height="942" alt="image" src="/images/Screenshot_home_mobile.png" />
-
 ## Projeto hospedado
 
-Site: `https://gutierrezpizza.netlify.app`
+Site: https://gutierrezpizza.netlify.app
 
 ## 🚀 Como Rodar o Projeto
 

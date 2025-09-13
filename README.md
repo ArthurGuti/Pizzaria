@@ -6,15 +6,17 @@ Este é um projeto para estudo da faculdade - apenas HTML e CSS.
 
 HTML \
 CSS \
-Visual Code \ 
+Visual Code \
 
 ## Imagens do Projeto
 
-![Tabela]<img width="1868" height="946" alt="image" src="/images/Screenshot_ home PC.png" /> ![Uploading image.png…]()
+![Home]<img width="1868" height="946" alt="image" src="/images/Screenshot_home_PC.png" />
 
+![Mobile]<img width="1862" height="942" alt="image" src="/images/Screenshot_home_mobile.png" />
 
-![Tela de cadastro de paciente]<img width="1862" height="942" alt="image" src="/images/Screenshot_home mobile.png" />
+## Projeto hospedado
 
+Site: `https://gutierrezpizza.netlify.app`
 
 ## 🚀 Como Rodar o Projeto
 
